@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import bubble from './bubble.png';
 import { Link } from 'react-router'
 
 import './App.css';
@@ -9,13 +10,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <img src={bubble} className="speech-bubble" height="300" />
         </header>
-        <p className="App-intro">
-          <Link to="about">About</Link>
-          <Link to="gallery">Gallery</Link>
-        </p>
+        <div classname="main-puff">
+          <p className="App-intro">
+            <Link to="about">About</Link>
+            <Link to="gallery">Gallery</Link>
+          </p>
+        </div>
         { this.props.children }
       </div>
     );
