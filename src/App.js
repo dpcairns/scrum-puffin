@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import bubble from './bubble.png';
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 
 import './App.css';
 
@@ -12,13 +12,16 @@ class App extends Component {
         <header className="App-header">
           <img src={bubble} className="speech-bubble" height="300" />
         </header>
-        <div classname="main-puff">
-          <p className="App-intro">
-            <Link to="about">About</Link>
-            <Link to="gallery">Gallery</Link>
-          </p>
+        <div className="App-intro">
+          <ul>
+          <li><Link to="about">About</Link></li>
+          <li><Link to="gallery">Gallery</Link></li>
+          <li><Link to="diet">Diet</Link></li>
+          <li><Link to="anatomy">Anatomy</Link></li>
+          <li><Link to="science">Science</Link></li>
+          </ul>
+          { this.props.children }
         </div>
-        { this.props.children }
       </div>
     );
   }

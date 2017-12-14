@@ -15,6 +15,10 @@
   color: white;
 }
 
+.speech-bubble {
+  transform: translate(-50%) scaleX(-1);
+}
+
 .App-title {
   font-size: 1.5em;
 }
