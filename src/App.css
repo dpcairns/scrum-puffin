@@ -10,13 +10,36 @@
 }
 
 .App-header {
-  height: 350px;
+  height: 400px;
   padding: 20px;
   color: white;
 }
 
-.speech-bubble {
-  transform: translate(-50%) scaleX(-1);
+.nav-bubble {
+  display: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  background-image: url('./bubble1.png');
+  /*transform:scaleX(-1);*/
+  margin-top: -100px;
+}
+
+.nav-bubble span {
+  transform:scaleX(-1);
+}
+
+.App:hover .nav-bubble {
+  display: block;
+}
+
+.nav-bubble-text {
+  padding-top: 150px;
+}
+
+.nav-bubble-text ul {
+  list-style: none;
 }
 
 .App-title {
