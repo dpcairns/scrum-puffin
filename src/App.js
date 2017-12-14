@@ -17,7 +17,6 @@ class App extends Component {
           <li><Link to="anatomy">Anatomy</Link></li>
           <li><Link to="science">Science</Link></li>
         </ul>
-          <img src={bubble} className="speech-bubble" height="300" />
         </header>
         <div className="App-intro">
           { this.props.children }

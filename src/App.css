@@ -20,13 +20,35 @@ li {
 }
 
 .App-header {
-  height: 350px;
+  height: 400px;
   padding: 20px;
   color: white;
 }
 
-.speech-bubble {
-  transform: translate(-50%) scaleX(-1);
+.nav-bubble {
+  display: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  margin-top: -100px;
+  transition: all .2s ease-in-out;
+}
+
+.nav-bubble span {
+  transform:scaleX(-1);
+}
+
+.App:hover .nav-bubble {
+  display: block;
+}
+
+.nav-bubble-text {
+  padding-top: 150px;
+}
+
+.nav-bubble-text ul {
+  list-style: none;
 }
 
 .App-title {
@@ -35,9 +57,4 @@ li {
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
