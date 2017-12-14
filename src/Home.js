@@ -6,11 +6,10 @@ class Home extends Component {
     return (
       <div className="home-div">
         <ul>
-          <li><Link to="about">About</Link></li>
-          <li><Link to="gallery">Gallery</Link></li>
           <li><Link to="diet">Diet</Link></li>
-          <li><Link to="anatomy">Anatomy</Link></li>
-          <li><Link to="science">Science</Link></li>
+          <li><Link to="gallery">Gallery</Link></li>
+          <li><Link to="anatomy">Physical Attributes</Link></li>
+          <li><Link to="science">Habitat</Link></li>
         </ul>
       </div>
     );
