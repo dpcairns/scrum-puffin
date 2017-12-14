@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-image: url('./puffin_bg.jpg');
-  height: 1000px;
+  height: 100vh;
 }
 
 a {
@@ -20,7 +20,6 @@ li {
 }
 
 .App-header {
-  height: 400px;
   padding: 20px;
   color: white;
 }
@@ -57,4 +56,11 @@ li {
 
 .App-intro {
   font-size: large;
+  position: relative;
+  border: solid 1px pink;
+  width: 50%;
+  transform: translate(-50%);
+  height: 50%;
+  left: 50%;
+  background-color: rgba(255,255,255, .5);
 }
