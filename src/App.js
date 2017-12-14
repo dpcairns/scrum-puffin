@@ -9,16 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-        <ul>
-          <li><Link to="about">About</Link></li>
-          <li><Link to="gallery">Gallery</Link></li>
-          <li><Link to="diet">Diet</Link></li>
-          <li><Link to="anatomy">Anatomy</Link></li>
-          <li><Link to="science">Science</Link></li>
-        </ul>
-        </header>
-        <div className="App-intro">
+        <div class="inner-app">
           { this.props.children }
         </div>
       </div>

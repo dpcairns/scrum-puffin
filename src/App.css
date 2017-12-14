@@ -1,7 +1,16 @@
 .App {
   text-align: center;
-  background-image: url('./puffin_bg.jpg');
-  height: 100vh;
+  height: 1000px;
+  margin-top:-100px;
+}
+
+.inner-app {
+  margin-top: 100px;
+}
+
+.home-div {
+  height: 1000px;
+  background-image: url('./homepage__puffy.png');
 }
 
 a {
