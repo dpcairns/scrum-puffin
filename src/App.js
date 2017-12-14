@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { Link } from 'react-router'
+
 import './App.css';
 
 class App extends Component {
@@ -11,8 +13,10 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <Link to="about">About</Link>
+          <Link to="gallery">Gallery</Link>
         </p>
+        { this.props.children }
       </div>
     );
   }
