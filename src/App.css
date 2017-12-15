@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  height: 1000px;
+  margin-top:-100px;
+}
+
+.inner-app {
+  margin-top: 100px;
+}
+
+.home-div {
+  height: 1000px;
+  background-image: url('./homepage__puffy.png');
+}
+
+.diet-div {
+  height: 1000px;
+  background-image: url('./DIET.png');
+}
+
+.science-div {
+  height: 1000px;
+  background-image: url('./habitat.png');
+}
+
+a {
+  color: pink;
+  background-color: lightblue;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px;
+  display: inline;
+}
+
+.App-header {
+  padding: 20px;
+  color: white;
+}
+
+.nav-bubble {
+  display: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  margin-top: -100px;
+  transition: all .2s ease-in-out;
+}
+
+.nav-bubble span {
+  transform:scaleX(-1);
+}
+
+.App:hover .nav-bubble {
+  display: block;
+}
+
+.nav-bubble-text {
+  padding-top: 150px;
+}
+
+.nav-bubble-text ul {
+  list-style: none;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  position: relative;
+  border: solid 1px pink;
+  width: 50%;
+  transform: translate(-50%);
+  height: 50%;
+  left: 50%;
+  background-color: rgba(255,255,255, .5);
+}
