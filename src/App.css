@@ -8,29 +8,58 @@
   margin-top: 100px;
 }
 
-.home-div {
+.home {
   height: 1000px;
   background-image: url('./homepage__puffy.png');
+  background-size: cover;
 }
 
-.diet-div {
+.diet {
   height: 1000px;
-  background-image: url('./DIET.png');
+  background-image: url('./_DIET.png');
+  background-size: cover;
 }
 
-.science-div {
+.gallery {
   height: 1000px;
-  background-image: url('./habitat.png');
+  background-image: url('./_GALLERY.png');
+  background-size: cover;
+}
+
+.anatomy {
+  height: 1000px;
+  background-image: url('./_ANATOMY.png');
+  background-size: cover;
+}
+
+.look-like {
+  height: 1000px;
+  background-image: url('./_ANATOMY2.png');
+  background-size: cover;
+}
+
+.diet {
+  height: 1000px;
+  background-image: url('./_DIET.png');
+  background-size: cover;
+}
+
+.habitat {
+  height: 1000px;
+  background-image: url('./_HABITAT.png');
+  background-size: cover;
 }
 
 a {
-  color: pink;
-  background-color: lightblue;
+  color: white;
+  background-color: black;
   padding: 5px;
 }
 
 ul {
   list-style-type: none;
+  background-color: orange;
+  height: 40px;
 }
 
 li {
